@@ -1,0 +1,114 @@
+.page{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    margin-top: -0.5%;
+}
+
+.nav{
+    width: 89%;
+    height: fit-content;
+    display: flex;
+    background-color: aquamarine;
+    border-radius: 5px;
+    position: fixed;
+    margin:0 auto;
+    margin-bottom: 90px;
+    /* color */
+    background: linear-gradient(270deg, rgba(143, 0, 255, 0.2) 1.72%, rgba(0, 0, 0, 0) 100%), linear-gradient(270deg, rgba(20, 0, 255, 0.2) 36.47%, rgba(0, 0, 0, 0) 62.03%), linear-gradient(270deg, rgba(0, 10, 247, 0.2) 59.03%, rgba(0, 0, 0, 0) 93.7%), #00FFE0;
+
+}
+.nav .logo{
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    margin: 2px 15px 2px 15px;
+}
+.nav .logo img{
+    width: 60px;
+}
+
+.tombol{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid red;
+    margin: auto;
+}
+.tombol ul{
+    color: rgb(0, 0, 0);
+    position: relative;
+    display: flex;
+    margin: 0 5px 0 5px;
+}
+.tombol ul li{
+    list-style: none;
+    float: left;
+    font-size: 2vmax;
+    font-weight: bolder;
+    padding: 0 15px 0 15px;
+}
+.kosong{
+    height: 70px;
+}
+.news1{
+    border: 1px solid red;
+    width: 65%;
+}
+
+.news1 img{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+}
+
+.news1 .tgl{
+    display: none;
+}
+
+.news1 .judul{
+    font-size: 30px;
+}
+
+/* footer */
+.footer{
+    flex-wrap: wrap;
+    display: flex;
+    background: black;
+    width: 100%;
+    height: max-content;
+    border-radius: 5px;
+}
+
+.bfooter{
+    width: 500px;
+    height: max-content;
+    margin: 0 auto;
+}
+.alamat{
+/* kotak gradsai */
+    margin-top: 15px;
+    margin: 15px 0 0 15px;
+    width: max-content;
+    height: max-content;
+    background: linear-gradient(90deg, #009688 31.67%, rgba(217, 217, 217, 0) 124.62%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 6px;
+
+/* alamat redaksi */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+.fbox {
+    color: white;
+    width: 400px;
+    height: 30%;
+    margin: 15px 0 0 15px;
+}
