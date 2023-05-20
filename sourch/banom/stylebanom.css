@@ -29,6 +29,10 @@
     width: 60px;
 }
 
+.nav a{
+    text-decoration: none;
+}
+
 .tombol{
     width: fit-content;
     height: fit-content;
