@@ -52,7 +52,7 @@
     height: 70px;
 }
 .news1{
-    border: 1px solid red;
+    border: 0px solid red;
     width: 65%;
 }
 
@@ -69,6 +69,31 @@
 }
 
 .news1 .judul{
+    font-size: 30px;
+}
+
+.gambar{
+    display: block;
+    width: 150%;
+    padding : 10px;
+}
+
+.teks{
+    right:
+    text-align:;
+    width: 155%;
+}
+
+.pembatass{
+    background-color: green;
+    height: 40px;
+    width: 6px;
+    margin-right: 5px ;
+}
+
+.profil {
+    margin-top: -37px;
+    margin-left: 10px;
     font-size: 30px;
 }
 
