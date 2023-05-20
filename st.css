@@ -92,6 +92,33 @@
     flex-wrap: wrap;
 }
 
+table{
+    width: 100%;
+    border: 1px solid black;
+    margin: 15px 0 15px 0;
+}
+
+th{
+    width: 100px;
+    background-color: #009688;
+}
+
+.warna{
+    background-color: rgba(95, 95, 95, 0.479);
+    text-align: center;
+    width: 20px;
+}
+
+td{
+    text-align: center;
+    border: 1px solid black;
+}
+
+.bawah:hover{
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
 /*footer*/
 
 .footer{
