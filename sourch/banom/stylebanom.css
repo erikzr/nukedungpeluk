@@ -14,7 +14,6 @@
     border-radius: 5px;
     position: fixed;
     margin:0 auto;
-    margin-bottom: 90px;
     /* color */
     background: linear-gradient(270deg, rgba(143, 0, 255, 0.2) 1.72%, rgba(0, 0, 0, 0) 100%), linear-gradient(270deg, rgba(20, 0, 255, 0.2) 36.47%, rgba(0, 0, 0, 0) 62.03%), linear-gradient(270deg, rgba(0, 10, 247, 0.2) 59.03%, rgba(0, 0, 0, 0) 93.7%), #00FFE0;
 
@@ -51,50 +50,6 @@
 .kosong{
     height: 70px;
 }
-.news1{
-    border: 0px solid red;
-    width: 65%;
-}
-
-.news1 img{
-    width: 400px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    padding: 25px;
-}
-
-.news1 .tgl{
-    display: none;
-}
-
-.news1 .judul{
-    font-size: 30px;
-}
-
-.gambar{
-    display: block;
-    width: 150%;
-    padding : 10px;
-}
-
-.teks{
-    width: 155%;
-}
-
-.pembatass{
-    background-color: green;
-    height: 40px;
-    width: 6px;
-    margin-right: 5px ;
-}
-
-.profil {
-    margin-top: -37px;
-    margin-left: 10px;
-    font-size: 30px;
-}
-
 /* footer */
 .footer{
     flex-wrap: wrap;
