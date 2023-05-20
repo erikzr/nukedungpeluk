@@ -52,8 +52,8 @@
     height: 70px;
 }
 .news1{
-    border: 0px solid red;
-    width: 65%;
+    border: 1px solid red;
+    width: 100%;
 }
 
 .news1 img{
@@ -74,12 +74,11 @@
 
 .gambar{
     display: block;
-    width: 150%;
     padding : 10px;
 }
 
 .teks{
-    width: 155%;
+
 }
 
 .pembatass{

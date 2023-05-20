@@ -53,11 +53,19 @@
 }
 .news1{
     border: 1px solid red;
-    width: 65%;
+    width: 100%;
 }
 
 .news1 img{
     width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+}
+
+.news1 .gambarr{
+    width:350px;
     height: 200px;
     margin: 0 auto;
     display: flex;
@@ -70,6 +78,11 @@
 
 .news1 .judul{
     font-size: 30px;
+    text-align: center;
+}
+
+.teks{
+    
 }
 
 /* footer */
