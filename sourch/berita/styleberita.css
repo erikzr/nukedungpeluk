@@ -14,9 +14,10 @@
     border-radius: 5px;
     position: fixed;
     margin:0 auto;
-
+    margin-bottom: 90px;
     /* color */
     background: linear-gradient(270deg, rgba(143, 0, 255, 0.2) 1.72%, rgba(0, 0, 0, 0) 100%), linear-gradient(270deg, rgba(20, 0, 255, 0.2) 36.47%, rgba(0, 0, 0, 0) 62.03%), linear-gradient(270deg, rgba(0, 10, 247, 0.2) 59.03%, rgba(0, 0, 0, 0) 93.7%), #00FFE0;
+
 }
 .nav .logo{
     max-width: 100%;
@@ -47,83 +48,44 @@
     font-weight: bolder;
     padding: 0 15px 0 15px;
 }
-
-
-.gambar1 img{
-    display: block;
-    margin: auto;
-    width: 50vw;
-    padding-top: 6%;
-    padding-bottom: 9px;
+.kosong{
+    height: 70px;
 }
-
-
-.pembatas{
-    display: flex;
-}
-.pembatas .kosong{
-    background-color: green;
-    height: 29px;
-    width: 6px;
-    margin-right: 5px ;
-}
-
-.pembatas .beranda{
-    font-size: 25px;
-}
-
 .news1{
-    width: 45%;
-    margin: 0 auto;
+    border: 1px solid red;
+    width: 100%;
 }
 
 .news1 img{
-    width: 300px;
+    width: 400px;
     height: 200px;
+    margin: 0 auto;
+    display: flex;
     padding: 25px;
-    margin-left: 80px;
+}
+
+.news1 .gambarr{
+    width:350px;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+}
+
+.news1 .tgl{
+    display: none;
 }
 
 .news1 .judul{
-    font-size: 25px;
-    border: 1px solid red;
-    height: 60px;
-}
-
-.berita { 
-    display: flex;
-    flex-wrap: wrap;
-}
-
-table{
-    width: 100%;
-    border: 1px solid black;
-    margin: 15px 0 15px 0;
-}
-
-th{
-    width: 100px;
-    background-color: #009688;
-}
-
-.warna{
-    background-color: rgba(95, 95, 95, 0.479);
+    font-size: 30px;
     text-align: center;
-    width: 20px;
 }
 
-td{
-    text-align: center;
-    border: 1px solid black;
+.teks{
+    
 }
 
-.bawah:hover{
-    transform: scale(0.9);
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-}
-/*footer*/
-
+/* footer */
 .footer{
     flex-wrap: wrap;
     display: flex;
@@ -163,4 +125,3 @@ td{
     height: 30%;
     margin: 15px 0 0 15px;
 }
-

@@ -51,27 +51,6 @@
 .kosong{
     height: 70px;
 }
-.news1{
-    border: 1px solid red;
-    width: 65%;
-}
-
-.news1 img{
-    width: 400px;
-    height: 200px;
-    margin: 0 auto;
-    display: flex;
-    padding: 25px;
-}
-
-.news1 .tgl{
-    display: none;
-}
-
-.news1 .judul{
-    font-size: 30px;
-}
-
 /* footer */
 .footer{
     flex-wrap: wrap;
