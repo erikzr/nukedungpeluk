@@ -6,7 +6,6 @@
     margin-top: -0.7%;
 }
 
-/* navbar */
 .nav{
     width: 89%;
     height: fit-content;
@@ -56,99 +55,51 @@
 .nl:active{
     color: transparent;
 }
-/* slider */
-#slider {
-    display: flex;
-    overflow-x: auto;
-    scroll-snap-type: x mandatory;
-} 
-#slider img {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    width: 100%;
-    height: auto;
-}
-  
 /* content */
-.gambar1 img{
-    display: block;
-    margin: auto;
-    width: 50vw;
-    padding-top: 6%;
-    padding-bottom: 9px;
+.kosong{
+    height: 70px;
+}
+.news1{
+    border: 1px solid red;
+    width: 100%;
 }
 
-.pembatas{
+.news1 img{
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
     display: flex;
+    padding: 25px;
 }
-.pembatas .kosong{
+
+.news1 .tgl{
+    display: none;
+}
+
+.news1 .judul{
+    font-size: 30px;
+}
+
+.gambar{
+    display: block;
+    padding : 10px;
+}
+
+
+.pembatass{
     background-color: green;
-    height: 29px;
+    height: 40px;
     width: 6px;
     margin-right: 5px ;
 }
 
-.pembatas .beranda{
-    font-size: 25px;
-}
-.news1{
-    width: 45%;
-    margin: 0 auto;
-}
-.news1 img{
-    width: 300px;
-    height: 200px;
-    padding: 25px;
-    margin-left: 80px;
+.profil {
+    margin-top: -37px;
+    margin-left: 10px;
+    font-size: 30px;
 }
 
-.news1 .judul{
-    font-size: 25px;
-    border: 1px solid red;
-    height: 60px;
-}
-
-.berita { 
-    display: flex;
-    flex-wrap: wrap;
-}
-
-table{
-    width: 100%;
-    border: 1px solid black;
-    margin: 15px 0 15px 0;
-}
-
-th{
-    width: 100px;
-    background-color: #009688;
-}
-
-.warna{
-    background-color: rgba(95, 95, 95, 0.479);
-    text-align: center;
-    width: 20px;
-}
-
-td{
-    text-align: center;
-    border: 1px solid black;
-}
-
-.bawah:hover{
-    transform: scale(0.9);
-    transition: transform 0.3s ease-in-out;
-    cursor: pointer;
-}
-
-/* tokohnu */
-.bawahrutinan{
-    margin: 0 0 15px 0;
-}
-
-
-/*footer*/
-
+/* footer */
 .footer{
     flex-wrap: wrap;
     display: flex;
@@ -187,58 +138,4 @@ td{
     width: 400px;
     height: 30%;
     margin: 15px 0 0 15px;
-}
-
-/* kartu foto */
-.bungkusFoto{
-    display: flex;
-    margin: 15px 0 15px 0;
-    width: 100%;
-    overflow: hidden;
-}
-
-
-.photo-card {
-    width: 150px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin: auto;
-    transition: box-shadow 0.3s;
-  }
-  .photo-card.clicked {
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Efek tekanan saat diklik */
-  }
-
-  .photo-card img {
-    display: block;
-    width: 130px;
-    margin: 5px auto;
-  }
-  
-  .photo-info {
-    padding: 10px;
-    background-color: #f2f2f2;
-  }
-  
-  .photo-info h3 {
-    margin-top: 0;
-  }
-  
-  .photo-info p {
-    margin-bottom: 0;
-  }
-
-
-
-/* REUSE FUNCTION */
-.click{
-    cursor: pointer;
-}
-
-.click .nl{
-    color: black;
-    transition: color 0.1s ease;
-}
-.click:active{
-    color: transparent;
 }
