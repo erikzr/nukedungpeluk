@@ -3,9 +3,10 @@
     height: 90%;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
-    margin-top: -0.5%;
+    margin-top: -0.7%;
 }
 
+/* navbar */
 .nav{
     width: 89%;
     height: fit-content;
@@ -33,7 +34,6 @@
 .tombol{
     width: fit-content;
     height: fit-content;
-    border: 1px solid red;
     margin: auto;
 }
 .tombol ul{
@@ -47,10 +47,17 @@
     float: left;
     font-size: 2vmax;
     font-weight: bolder;
-    padding: 0 15px 0 15px;
+    padding: 0 15px 0 15px;   
+}
+.tombol .nl{
+    color: black;
+    transition: color 0.1s ease;
+}
+.nl:active{
+    color: transparent;
 }
 
-
+/* content */
 .gambar1 img{
     display: block;
     margin: auto;
@@ -58,7 +65,6 @@
     padding-top: 6%;
     padding-bottom: 9px;
 }
-
 
 .pembatas{
     display: flex;
@@ -73,12 +79,10 @@
 .pembatas .beranda{
     font-size: 25px;
 }
-
 .news1{
     width: 45%;
     margin: 0 auto;
 }
-
 .news1 img{
     width: 300px;
     height: 200px;
