@@ -240,5 +240,5 @@ td{
     transition: color 0.1s ease;
 }
 .click:active{
-    color: transparent;
+    color: gray;
 }
