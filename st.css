@@ -57,7 +57,7 @@
     color: transparent;
 }
 /* slider */
-#slider {
+ #slider {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
@@ -215,6 +215,7 @@ td{
     margin: 5px auto;
   }
   
+ 
   .photo-info {
     padding: 10px;
     background-color: #f2f2f2;

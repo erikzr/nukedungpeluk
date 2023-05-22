@@ -65,8 +65,8 @@
 }
 
 .news1 img{
-    width: 400px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     margin: 0 auto;
     display: flex;
     padding: 25px;
@@ -81,7 +81,7 @@
 }
 
 .gambar{
-    display: block;
+    display: ;
     padding : 10px;
 }
 
