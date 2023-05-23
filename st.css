@@ -53,6 +53,19 @@
     color: black;
     transition: color 0.1s ease;
 }
+.tombol .nl:hover{
+    color: white;
+    width:50px;
+    transition:color 0.1s ease;
+    font-size:27px;
+    border-bottom: 2px solid orange;
+    padding-bottom: 5px;
+}
+.tombol .nl:hover{
+    color: white;
+    transition:color 0.1s ease;
+    font-size:27px;
+}
 .nl:active{
     color: gray;
 }
@@ -109,7 +122,7 @@
 
 .news1 a{
     text-decoration: none;
-    color: black;
+    color: 
 }
 
 .berita { 
