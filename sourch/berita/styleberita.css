@@ -90,6 +90,28 @@
     text-align: center;
 }
 
+.pembatas{
+    display: flex;
+}
+.pembatas .kosong{
+    background-color: green;
+    height: 29px;
+    width: 6px;
+    margin-right: 5px ;
+}
+
+.pembatas .beranda{
+    font-size: 25px;
+}
+
+.berita .gambar{
+    object-fit: cover;
+}
+
+.berita .gambar img{
+width: 250px;
+height: 150px;}
+
 /* footer */
 .footer{
     flex-wrap: wrap;

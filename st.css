@@ -208,16 +208,20 @@ td{
     border-radius: 4px;
     margin: auto;
     transition: box-shadow 0.3s;
+}
+.photo-card:hover {
+    cursor: pointer;
+    background-image: gray;
   }
-  .photo-card.clicked {
+.photo-card.clicked {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); /* Efek tekanan saat diklik */
   }
 
-  .photo-card img {
+.photo-card img {
     display: block;
     width: 130px;
     margin: 5px auto;
-  }
+}
   
  
   .photo-info {
@@ -247,3 +251,5 @@ td{
 .click:active{
     color: gray;
 }
+
+/* test */
