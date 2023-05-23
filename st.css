@@ -54,7 +54,7 @@
     transition: color 0.1s ease;
 }
 .nl:active{
-    color: transparent;
+    color: gray;
 }
 /* slider */
  #slider {
@@ -104,8 +104,12 @@
 
 .news1 .judul{
     font-size: 25px;
-    border: 1px solid red;
     height: 60px;
+}
+
+.news1 a{
+    text-decoration: none;
+    color: black;
 }
 
 .berita { 
